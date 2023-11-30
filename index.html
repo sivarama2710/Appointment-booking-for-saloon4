@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://allthedifferences.com/wp-content/uploads/2023/05/pexels-delbeautybox-853427-scaled-e1686229024908-728x546.jpg.webp);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size:cover;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            width: 300px;
+            margin:50px auto;
+            padding:50px;
+            border: 3px solid #FAE7C9;
+            border-radius:15px;
+        }
+        label {
+            color: #555;
+            font-size: 15px;
+        }   
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            color:orangered;
+            font-size: 20px;
+        }
+        input[type="submit"] {
+            background-color:rgb(60,160,70);
+            color: white;
+            padding: 15px 20px;
+            margin:0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: medium;
+            
+        }
+        input[type="submit"]:hover {
+            background-color:darkgreen;
+        }
+        p{
+            text-align: center;
+        }
+        p>a{
+            color:blue;
+        }
+        .button {
+            margin-bottom: 3em;
+            padding:15px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            background-color: rgb(60,60,170);
+            color: white;
+        }
+        .button:hover {
+            background-color: red;
+            color: white;
+        }
+        .forgot {
+            display: flex;
+            justify-content: flex-end;
+            color: rgba(156, 163, 175,1);
+            margin: 8px 0 14px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="loginForm" action="c.html" method="post">
+        <h2>Login</h2>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Login">
+        <div class="forgot">
+        <a href="#">Forgot your password?</a></div>
+        <p1>Not yet registered? <a href="b.html">Sign Up</a></p1>
+    </form>
+</body>
+</html>
